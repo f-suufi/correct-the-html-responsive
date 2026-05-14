@@ -67,7 +67,8 @@ hr {
 .header {
 	background-color: #64bcda;
 	border-bottom: 8px solid #000000;
-	margin-bottom: 3.2rem;
+	
+	
 }
 
 .header_logo {
@@ -164,6 +165,13 @@ hr {
 }
 
 @media (min-width: 800px) {
+
+.main .container {
+		display: flex;
+		gap: 15px;
+	
+	}
+
 	.header_pub-info {
 		flex-direction: row;
 		justify-content: space-between;
@@ -171,14 +179,22 @@ hr {
 	}
 
 	.main-article {
+		display: flex;
+		flex-direction: column;
 		width: 60%;
 		border-radius: 0.6rem;
 		margin: 0;
+		
 	}
 
 	.main-sidebar {
+		display: flex;
 		width: 40%;
+		flex-direction: column;
 		border-radius: 0.6rem;
 		margin: 0;
-	}
+
+
+}
+
 }
